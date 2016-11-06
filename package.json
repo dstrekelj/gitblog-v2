@@ -1,0 +1,12 @@
+{
+  "name": "gitblog-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "dstrekelj <domagojstrekelj@gmail.com>",
+  "license": "IDGAF",
+  "devDependencies": {
+    "haxe": "github:dstrekelj/npm-haxe"
+  }
+}
