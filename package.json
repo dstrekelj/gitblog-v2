@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "keywords": [],
+  "scripts": {
+    "dev:build": "webpack --config webpack.config.dev.js --display-error-details",
+    "dev:watch": "webpack --config webpack.config.dev.js --watch",
+    "app:build": "webpack --config webpack.config.app.js --p --progress"
+  },
   "author": "dstrekelj <domagojstrekelj@gmail.com>",
   "license": "IDGAF",
   "devDependencies": {
-    "haxe": "github:dstrekelj/npm-haxe"
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
   }
 }

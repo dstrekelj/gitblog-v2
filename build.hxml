@@ -1,0 +1,5 @@
+-lib react
+
+-cp src
+-main gitblog.GitBlog
+-js bin/gitblog.js
